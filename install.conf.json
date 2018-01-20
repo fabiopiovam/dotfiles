@@ -1,0 +1,30 @@
+[
+    {
+        "defaults": {
+            "link": {
+                "relink": true
+            }
+        }
+    },
+    {
+        "clean": ["~"]
+    },
+    {
+        "link": {
+            "~/.dotfiles": "",
+            "~/.zsh": "zsh",
+            "~/.zshrc": "zshrc",
+            "~/.vim": "vim",
+            "~/.vimrc.local": "vimrc.local",
+            "~/.gitconfig": "gitconfig"
+        }
+    },
+    {
+        "shell": [
+            ["sudo apt-get install zsh", "Installing ZSH"],
+            ["curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh", "Installing oh-my-zsh Framework"],
+            ["sh <(curl http://j.mp/spf13-vim3 -L)", "Installing spf13-vim"],
+            ["git submodule update --init --recursive", "Installing submodules"]
+        ]
+    }
+]
