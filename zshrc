@@ -61,6 +61,11 @@ ZSH_THEME="fwalch"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  man
+  dotenv
+  extract
+  colorize
+  colored-man-pages
 )
 
 source $ZSH/oh-my-zsh.sh
