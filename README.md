@@ -1,19 +1,10 @@
-# dotfiles
- \0/
+# My dotfiles :)
 
-## REQUIREMENTS
-```
-sudo apt-get install vim zsh
-```
+There are my dotfiles with [LARBS](https://github.com/LukeSmithxyz/LARBS) based.
 
-## INSTALL
-```
-git clone https://github.com/laborautonomo/dotfiles.git ~/.dotfiles && ~/.dotfiles/install
-```
+Soon I'll post details of my personal settings.
 
-## FAVORITE TOOLS
+## Acknowledgment
 
-### Debian 9 "Stretch"
-```
-sudo apt-get install aptitude nmap gparted tree ssh yakuake
-```
++ [LukeSmith](https://github.com/LukeSmithxyz) for sharing his knowledge. Thanks!
++ All projects and developers around [Voidrice](https://github.com/LukeSmithxyz/voidrice) dotfiles.
